@@ -10,39 +10,41 @@ public class Main {
         사람 a사람2 = 로봇.get사람2();
         사람 a사람3 = 로봇.get사람3();
         사람 a사람4 = 로봇.get사람4();
-        사람 a사람5 = 로봇.get사람5(123,false);
-        로봇.get사람6(123,false);
+        사람 a사람5 = 로봇.get사람5(123, false);
+        로봇.get사람6(123, false);
 
     }
 }
 
 class 사람 extends 로봇 {
-}
 
-class 로봇  {
+}
+class 로봇 {
     static int get정수() {
         return 0;
     }
+
     static boolean get논리() {
         return false;
     }
 
-    public static 사람 get사람() {
+    static 사람 get사람() {
         return null;
     }
 
-    public static 사람 get사람2() {
+    static 사람 get사람2() {
         return null;
     }
 
-    public static 사람 get사람3() {
+    static 사람 get사람3() {
         return null;
     }
 
-    public static 사람 get사람4() {
+    static 사람 get사람4() {
         return null;
     }
-    public static 사람 get사람5(int a, boolean b) {
+
+    static 사람 get사람5(int a, boolean b) {
         return null;
     }
 
