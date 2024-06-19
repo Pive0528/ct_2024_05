@@ -44,7 +44,7 @@ class 전사 {
         System.out.println("안녕하세요. 저는 " + this.나이 + "살 " + this.이름 + " 입니다.");
     }
     void 공격() {
-        System.out.println(this.이름 + "가 " + this.a무기+"로 공격합니다.");
+        System.out.println(this.이름 + "가 " + this.a무기+"로 공격합니다!!");
     }
 }
 
