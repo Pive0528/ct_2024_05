@@ -39,7 +39,7 @@ class 전사 {
     }
     void 공격() {
         // a무기.작동(this.이름);
-        System.out.println("test!");
+        System.out.println("test!!");
         //무기.작동();
     }
 }
