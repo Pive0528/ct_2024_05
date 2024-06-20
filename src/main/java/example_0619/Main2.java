@@ -39,6 +39,7 @@ class 전사 {
     }
     void 공격() {
         // a무기.작동(this.이름);
+        System.out.println("test!");
         //무기.작동();
     }
 }
@@ -51,6 +52,7 @@ class 칼 extends 무기{
     void 작동() {
         System.out.println("이(가) 칼로 공격합니다.");
     }
+
 }
 
 class 활 extends 무기{
