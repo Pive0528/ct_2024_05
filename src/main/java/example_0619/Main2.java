@@ -5,7 +5,6 @@ package example_0619;
 public class Main2 {
     public static void main(String[] args) {
         전사 a전사 = new 전사();
-
         String 이름 = "칸";
         a전사.이름 = 이름;
         a전사.나이 = 20;
@@ -40,6 +39,7 @@ class 전사 {
     void 공격() {
         // a무기.작동(this.이름);
         System.out.println("test!!");
+
         //무기.작동();
     }
 }
